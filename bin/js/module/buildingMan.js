@@ -1,0 +1,106 @@
+/**
+* 建筑的满意度
+*/
+var module;
+(function (module) {
+    var buildingMan = /** @class */ (function () {
+        function buildingMan() {
+        }
+        buildingMan.m10001 = 0; //"圆灯柱";
+        buildingMan.m10002 = 0; //"休息凳";
+        buildingMan.m10003 = 0; //"连体休息凳";
+        buildingMan.m10004 = 0; //"小型信息牌";
+        buildingMan.m10005 = 0; //"中型信息牌";
+        buildingMan.m10006 = 0; //"圆形树柱";
+        buildingMan.m10007 = 0; //"小圆草丛";
+        buildingMan.m10008 = 0; //"古典树柱";
+        buildingMan.m10009 = 0; //"小方草丛";
+        buildingMan.m100010 = 0; //"草丛柱";
+        buildingMan.m100011 = 0; //"圆灯柱";
+        buildingMan.m100012 = 0; //"小型信息牌";
+        buildingMan.m100013 = 0; //"中型信息牌";
+        buildingMan.m100014 = 0; //"休息凳";
+        buildingMan.m100015 = 0; //"连体休息凳";
+        buildingMan.d10001 = 7; //"交互操作台";
+        buildingMan.d100021 = 7; //"交互操作台";
+        buildingMan.d10002 = 7; //"大型信息屏";
+        buildingMan.d100019 = 7; //"大型信息屏";
+        buildingMan.d10003 = 4; //"小型门店游戏操作台";
+        buildingMan.d100018 = 4; //"小型门店游戏操作台";
+        // public static d10004:number = "";
+        buildingMan.d10005 = 0; //"亲子互动游戏台";
+        buildingMan.d100020 = 0; //"亲子互动游戏台";
+        buildingMan.d10006 = 5; //"汽水机";
+        buildingMan.d100022 = 5; //"汽水机";
+        buildingMan.d10007 = 3; //"垃圾桶";
+        buildingMan.d100017 = 3; //"垃圾桶";
+        buildingMan.d10008 = 5; //"VR试驾台";
+        buildingMan.d10008a = 13; //"VR试驾台";
+        buildingMan.d10008ab = 22; //"VR试驾台";
+        buildingMan.d100023 = 5; //"VR试驾台";
+        buildingMan.d10009 = 7; //"制动系统展示";
+        buildingMan.d100010 = 7; //"制动系统展示";
+        buildingMan.d100010a = 14; //"制动系统展示";
+        // public static d100011:number = "";
+        buildingMan.d100012 = 18; //"礼品墙";
+        buildingMan.d100028 = 18; //"礼品墙";
+        buildingMan.d100013 = 4; //"自助餐吧";
+        buildingMan.d100013a = 11; //"自助餐吧";
+        buildingMan.d100013ab = 23; //"自助餐吧";
+        buildingMan.d100029 = 4; //"自助餐吧";
+        buildingMan.d100014 = 13; //"豪华地台";
+        buildingMan.show3 = 13; //"豪华地台";
+        buildingMan.show3a = 19; //"豪华地台";
+        buildingMan.show3ab = 26; //"豪华地台";
+        buildingMan.d100015 = 8; //"增高地台";
+        buildingMan.show2 = 8; //"增高地台";
+        buildingMan.show2a = 14; //"增高地台";
+        buildingMan.show2ab = 20; //"增高地台";
+        buildingMan.d100016 = 5; //"普通地台";
+        buildingMan.show1 = 5; //"普通地台";
+        buildingMan.show1a = 8; //"普通地台";
+        buildingMan.show1ab = 15; //"普通地台";
+        buildingMan.d100032 = 15; //"公路地台";
+        buildingMan.show4 = 15; //"公路地台";
+        buildingMan.show4a = 26; //"公路地台";
+        buildingMan.d100033 = 16; //"越野地台";
+        buildingMan.show5 = 16; //"越野地台";
+        buildingMan.show5a = 28; //"越野地台";
+        buildingMan.d100024 = 6; //"发动机展示";
+        buildingMan.d100024a = 15; //"发动机展示";
+        buildingMan.d100025 = 6; //"发动机展示";
+        buildingMan.d100026 = 6; //"变速箱展示";
+        buildingMan.d100026a = 16; //"变速箱展示";
+        // public static d100027:number = "";
+        buildingMan.d100030 = 17; //"大型多人游戏操作台";
+        buildingMan.d100031 = 17; //"大型多人游戏操作台";
+        buildingMan.frontDesk = 16; //"前台";
+        buildingMan.frontDesk1 = 29; //"前台";
+        buildingMan.frontDesk2 = 42; //"前台";
+        buildingMan.Operation = 15; //"AI控制台";
+        buildingMan.Operation1 = 28; //"AI控制台";
+        buildingMan.Operation2 = 44; //"AI控制台";
+        //车型
+        buildingMan.Wred310 = 36; //"310W(金属红)";
+        buildingMan.Wl310 = 36; //"310W(星夜蓝)";
+        buildingMan.Wqh310 = 36; //"310W(极光银）";
+        buildingMan.c320 = 38; //"310(闪晶橙)";
+        buildingMan.h320 = 38; //"310(糖果白)";
+        buildingMan.l320 = 38; //"310(碧海蓝)";
+        buildingMan.b360 = 44; //"360(糖果白)";
+        buildingMan.hui360 = 44; //"360(极光银)";
+        buildingMan.l360 = 44; //"360(星夜蓝)";
+        buildingMan.c510 = 50; //"510(闪晶橙)";
+        buildingMan.he510 = 50; //"510(水晶棕)";
+        buildingMan.l510 = 50; //"510(星夜蓝)";
+        buildingMan.hui530 = 57; //"530(极光银)";
+        buildingMan.l530 = 57; //"530(大地棕)";
+        buildingMan.red530 = 57; //"530(琉璃红)";
+        buildingMan.he730 = 51; //"730(大地棕)";
+        buildingMan.hei730 = 51; //"730(星夜黑)";
+        buildingMan.l730 = 51; //"730(星夜蓝)";
+        return buildingMan;
+    }());
+    module.buildingMan = buildingMan;
+})(module || (module = {}));
+//# sourceMappingURL=buildingMan.js.map

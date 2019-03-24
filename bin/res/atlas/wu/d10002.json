@@ -1,0 +1,94 @@
+{
+    "frames": {
+        "1.png": {
+            "frame": {
+                "h": 118,
+                "idx": 0,
+                "w": 107,
+                "x": 0,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 135,
+                "w": 115
+            },
+            "spriteSourceSize": {
+                "x": 2,
+                "y": 17
+            }
+        },
+        "2.png": {
+            "frame": {
+                "h": 118,
+                "idx": 0,
+                "w": 107,
+                "x": 0,
+                "y": 119
+            },
+            "sourceSize": {
+                "h": 135,
+                "w": 115
+            },
+            "spriteSourceSize": {
+                "x": 2,
+                "y": 17
+            }
+        },
+        "3.png": {
+            "frame": {
+                "h": 118,
+                "idx": 0,
+                "w": 107,
+                "x": 108,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 135,
+                "w": 115
+            },
+            "spriteSourceSize": {
+                "x": 2,
+                "y": 17
+            }
+        },
+        "4.png": {
+            "frame": {
+                "h": 118,
+                "idx": 0,
+                "w": 107,
+                "x": 108,
+                "y": 119
+            },
+            "sourceSize": {
+                "h": 135,
+                "w": 115
+            },
+            "spriteSourceSize": {
+                "x": 2,
+                "y": 17
+            }
+        },
+        "5.png": {
+            "frame": {
+                "h": 118,
+                "idx": 0,
+                "w": 107,
+                "x": 216,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 135,
+                "w": 115
+            },
+            "spriteSourceSize": {
+                "x": 2,
+                "y": 17
+            }
+        }
+    },
+    "meta": {
+        "image": "d10002.png",
+        "prefix": "d10002/",
+        "scale": "0.5"
+    }
+}

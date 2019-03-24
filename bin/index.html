@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset='utf-8' />
+	<title>智慧门店</title>
+	<meta name='viewport' content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no'
+	/>
+	<meta name="renderer" content="webkit"/>
+	<meta name='apple-mobile-web-app-capable' content='yes' />
+	<meta name='full-screen' content='true' />
+	<meta name='x5-fullscreen' content='true' />
+	<meta name='360-fullscreen' content='true' />
+	<meta name="laya" screenorientation ="landscape"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<meta http-equiv='expires' content='0' />
+	<meta http-equiv="Cache-Control" content="no-siteapp"/>
+	<link rel="shortcut icon" href="./nana.png">
+</head>
+
+<body>
+	<!--以下引用了常用类库，如果不使用，可以删除-->
+
+	<!--核心包，封装了显示对象渲染，事件，时间管理，时间轴动画，缓动，消息交互,socket，本地存储，鼠标触摸，声音，加载，颜色滤镜，位图字体等-->
+	<script type="text/javascript" src="libs/laya.core.js"></script>
+	<!--提供了微信小游戏的适配-->
+	<script type="text/javascript" src="libs/laya.wxmini.js"></script>
+	<!--封装了webgl渲染管线，如果使用webgl渲染，可以在初始化时调用Laya.init(1000,800,laya.webgl.WebGL);-->
+    <script type="text/javascript" src="libs/laya.webgl.js"></script>
+	<!--是动画模块，包含了swf动画，骨骼动画等-->
+    <script type="text/javascript" src="libs/laya.ani.js"></script>
+	<!--包含更多webgl滤镜，比如外发光，阴影，模糊以及更多-->
+    <script type="text/javascript" src="libs/laya.filter.js"></script>
+	<!--封装了html动态排版功能-->
+    <script type="text/javascript" src="libs/laya.html.js"></script>
+	<!--粒子类库-->
+    <script type="text/javascript" src="libs/laya.particle.js"></script>
+	<!--提供tileMap解析支持-->
+    <script type="text/javascript" src="libs/laya.tiledmap.js"></script>
+	<!--提供了制作UI的各种组件实现-->
+    <script type="text/javascript" src="libs/laya.ui.js"></script>
+	<!-- 物理引擎matter.js -->
+	<!--用户自定义顺序文件添加到这里-->
+	<!--jsfile--Custom-->
+	<!--jsfile--Custom-->
+	<!--自定义的js(src文件夹下)文件自动添加到下面jsfile模块标签里面里-->
+	<!--删除标签，ide不会自动添加js文件，请谨慎操作-->
+	<!--jsfile--startTag-->
+	<script src="js/vo/buildingVo.js"></script>
+	<script src="js/util/HttpRequestUtil.js"></script>
+	<script src="js/util/coordinates.js"></script>
+	<script src="js/module/upgrade.js"></script>
+	<script src="js/module/shopInfoModule.js"></script>
+	<script src="js/module/Room.js"></script>
+	<script src="js/module/reloadingVo.js"></script>
+	<script src="js/module/reloadingModule.js"></script>
+	<script src="js/module/placeItemModule.js"></script>
+	<script src="js/module/personText.js"></script>
+	<script src="js/module/personModule.js"></script>
+	<script src="js/module/personData.js"></script>
+	<script src="js/module/newTask.js"></script>
+	<script src="js/module/missionModule.js"></script>
+	<script src="js/module/mapModule.js"></script>
+	<script src="js/module/buildingVo.js"></script>
+	<script src="js/module/buildingShen.js"></script>
+	<script src="js/module/buildingModule.js"></script>
+	<script src="js/module/buildingMan.js"></script>
+	<script src="js/module/AnimationModule.js"></script>
+	<script src="js/module/aniFramesNumder.js"></script>
+	<script src="js/module/achievemenModule.js"></script>
+	<script src="js/ui/layaUI.max.all.js"></script>
+	<script src="js/wuling/achievement.js"></script>
+	<script src="js/wuling/baobianniu.js"></script>
+	<script src="js/wuling/baobitishi.js"></script>
+	<script src="js/wuling/begin.js"></script>
+	<script src="js/wuling/Bottom.js"></script>
+	<script src="js/wuling/building.js"></script>
+	<script src="js/wuling/buildingItem.js"></script>
+	<script src="js/wuling/cangku.js"></script>
+	<script src="js/wuling/cangkuItem.js"></script>
+	<script src="js/wuling/clientDetails.js"></script>
+	<script src="js/wuling/clientDetailsItem.js"></script>
+	<script src="js/wuling/ditaiChexing.js"></script>
+	<script src="js/wuling/ditaiChexingItem.js"></script>
+	<script src="js/wuling/evaluationView.js"></script>
+	<script src="js/wuling/goldCoins.js"></script>
+	<script src="js/wuling/huoDong.js"></script>
+	<script src="js/wuling/introduce.js"></script>
+	<script src="js/wuling/jings.js"></script>
+	<script src="js/wuling/Loading.js"></script>
+	<script src="js/wuling/login.js"></script>
+	<script src="js/wuling/manyiduanniu.js"></script>
+	<script src="js/wuling/manyidutishi.js"></script>
+	<script src="js/wuling/map.js"></script>
+	<script src="js/wuling/menu.js"></script>
+	<script src="js/wuling/mission.js"></script>
+	<script src="js/wuling/missionItem.js"></script>
+	<script src="js/wuling/nana.js"></script>
+	<script src="js/wuling/nenglianganniu.js"></script>
+	<script src="js/wuling/nengliangtishi.js"></script>
+	<script src="js/wuling/person.js"></script>
+	<script src="js/wuling/PlaceItem.js"></script>
+	<script src="js/wuling/PlaceItem1.js"></script>
+	<script src="js/wuling/PlaceItem2.js"></script>
+	<script src="js/wuling/rankBtn.js"></script>
+	<script src="js/wuling/rankList.js"></script>
+	<script src="js/wuling/rankListItem.js"></script>
+	<script src="js/wuling/reloading.js"></script>
+	<script src="js/wuling/reloadingItem.js"></script>
+	<script src="js/wuling/sange.js"></script>
+	<script src="js/wuling/setting.js"></script>
+	<script src="js/wuling/shareBtn.js"></script>
+	<script src="js/wuling/shareView.js"></script>
+	<script src="js/wuling/sheshi.js"></script>
+	<script src="js/wuling/shop.js"></script>
+	<script src="js/wuling/shopInfo.js"></script>
+	<script src="js/wuling/shopItem.js"></script>
+	<script src="js/wuling/ssInfo.js"></script>
+	<script src="js/wuling/tishianniu.js"></script>
+	<script src="js/wuling/Top.js"></script>
+	<script src="js/wuling/wanfa.js"></script>
+	<!--jsfile--endTag-->
+
+	<!--启动类添加到这里-->
+	<!--jsfile--Main-->
+	<script src="js/LayaSample.js"></script>
+	<!--jsfile--Main-->
+</body>
+
+</html>

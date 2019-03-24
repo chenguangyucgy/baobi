@@ -1,0 +1,179 @@
+{
+    "frames": {
+        "1.png": {
+            "frame": {
+                "h": 125,
+                "idx": 0,
+                "w": 101,
+                "x": 0,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 135,
+                "w": 115
+            },
+            "spriteSourceSize": {
+                "x": 8,
+                "y": 6
+            }
+        },
+        "10.png": {
+            "frame": {
+                "h": 125,
+                "idx": 0,
+                "w": 101,
+                "x": 0,
+                "y": 126
+            },
+            "sourceSize": {
+                "h": 135,
+                "w": 115
+            },
+            "spriteSourceSize": {
+                "x": 8,
+                "y": 6
+            }
+        },
+        "2.png": {
+            "frame": {
+                "h": 125,
+                "idx": 0,
+                "w": 102,
+                "x": 0,
+                "y": 252
+            },
+            "sourceSize": {
+                "h": 135,
+                "w": 115
+            },
+            "spriteSourceSize": {
+                "x": 8,
+                "y": 6
+            }
+        },
+        "3.png": {
+            "frame": {
+                "h": 124,
+                "idx": 0,
+                "w": 103,
+                "x": 102,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 135,
+                "w": 115
+            },
+            "spriteSourceSize": {
+                "x": 8,
+                "y": 7
+            }
+        },
+        "4.png": {
+            "frame": {
+                "h": 124,
+                "idx": 0,
+                "w": 103,
+                "x": 102,
+                "y": 125
+            },
+            "sourceSize": {
+                "h": 135,
+                "w": 115
+            },
+            "spriteSourceSize": {
+                "x": 8,
+                "y": 7
+            }
+        },
+        "5.png": {
+            "frame": {
+                "h": 125,
+                "idx": 0,
+                "w": 103,
+                "x": 103,
+                "y": 250
+            },
+            "sourceSize": {
+                "h": 135,
+                "w": 115
+            },
+            "spriteSourceSize": {
+                "x": 8,
+                "y": 6
+            }
+        },
+        "6.png": {
+            "frame": {
+                "h": 125,
+                "idx": 0,
+                "w": 103,
+                "x": 206,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 135,
+                "w": 115
+            },
+            "spriteSourceSize": {
+                "x": 8,
+                "y": 6
+            }
+        },
+        "7.png": {
+            "frame": {
+                "h": 125,
+                "idx": 0,
+                "w": 103,
+                "x": 310,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 135,
+                "w": 115
+            },
+            "spriteSourceSize": {
+                "x": 8,
+                "y": 6
+            }
+        },
+        "8.png": {
+            "frame": {
+                "h": 124,
+                "idx": 0,
+                "w": 103,
+                "x": 207,
+                "y": 126
+            },
+            "sourceSize": {
+                "h": 135,
+                "w": 115
+            },
+            "spriteSourceSize": {
+                "x": 8,
+                "y": 7
+            }
+        },
+        "9.png": {
+            "frame": {
+                "h": 124,
+                "idx": 0,
+                "w": 103,
+                "x": 311,
+                "y": 126
+            },
+            "sourceSize": {
+                "h": 135,
+                "w": 115
+            },
+            "spriteSourceSize": {
+                "x": 8,
+                "y": 7
+            }
+        }
+    },
+    "meta": {
+        "image": "d100024a.png",
+        "prefix": "d100024a/",
+        "scale": "0.5"
+    }
+}
